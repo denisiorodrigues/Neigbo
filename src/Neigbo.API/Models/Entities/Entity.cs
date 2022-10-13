@@ -1,0 +1,12 @@
+﻿namespace Neigbo.API.Models.Entities
+{
+    public abstract class Entity
+    {
+        protected Entity()
+        {
+            Id = new Guid();
+        }
+
+        public Guid Id { get; set; }
+    }
+}
